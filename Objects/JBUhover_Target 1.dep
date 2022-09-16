@@ -1,0 +1,353 @@
+Dependencies for Project 'JBUhover', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\systick.c)(0x626C28FF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/systick.o -MD)
+I (gd32f1x0.h)(0x61C18C76)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (gd32f1x0_libopt.h)(0x61C18C59)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x5DB1CDBE)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB71922)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_tsi.h)(0x5DB71C90)
+I (systick.h)(0x626C27CC)
+F (.\JBUhover.c)(0x62715C9F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/jbuhover.o -MD)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB71D0A)
+I (RTE\_Target_1\RTE_Components.h)(0x6269C287)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+I (gd32f1x0.h)(0x61C18C76)
+I (systick.h)(0x626C27CC)
+I (initialization.h)(0x6271140A)
+I (define.h)(0x62714B60)
+I (operations.h)(0x62714F0C)
+F (.\gd32f1x0_it.c)(0x61C18C59)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/gd32f1x0_it.o -MD)
+I (gd32f1x0_it.h)(0x61C18C59)
+I (gd32f1x0.h)(0x61C18C76)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (gd32f1x0_libopt.h)(0x61C18C59)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x5DB1CDBE)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB71922)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_tsi.h)(0x5DB71C90)
+I (systick.h)(0x626C27CC)
+F (.\gd32f1x0_it.h)(0x61C18C59)()
+F (.\systick.h)(0x626C27CC)()
+F (.\gd32f1x0.h)(0x61C18C76)()
+F (.\define.h)(0x62714B60)()
+F (.\initialization.c)(0x62714B60)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/initialization.o -MD)
+I (gd32f1x0.h)(0x61C18C76)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (gd32f1x0_libopt.h)(0x61C18C59)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x5DB1CDBE)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB71922)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_tsi.h)(0x5DB71C90)
+I (initialization.h)(0x6271140A)
+I (define.h)(0x62714B60)
+F (.\initialization.h)(0x6271140A)()
+F (.\operations.c)(0x6271538E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/operations.o -MD)
+I (gd32f1x0.h)(0x61C18C76)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (gd32f1x0_libopt.h)(0x61C18C59)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_cec.h)(0x5DB1CDBE)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_crc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_cmp.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dac.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB71922)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rtc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_spi.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_tsi.h)(0x5DB71C90)
+I (define.h)(0x62714B60)
+I (operations.h)(0x62714F0C)
+F (.\operations.h)(0x62714F0C)()
+F (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Boards\GigaDevice\GD32150C-START\Common\LED.c)(0x57851AE6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/led.o -MD)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB71D0A)
+I (RTE\_Target_1\RTE_Components.h)(0x6269C287)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\Board\Board_LED.h)(0x5D147FDA)
+F (RTE\Device\GD32F130C8\gd32f1x0_adc.c)(0x5DB338C0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/gd32f1x0_adc.o -MD)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB71D0A)
+I (RTE\_Target_1\RTE_Components.h)(0x6269C287)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+F (RTE\Device\GD32F130C8\gd32f1x0_exti.c)(0x5DB338C0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/gd32f1x0_exti.o -MD)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB71D0A)
+I (RTE\_Target_1\RTE_Components.h)(0x6269C287)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+F (RTE\Device\GD32F130C8\gd32f1x0_gpio.c)(0x5DAED364)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/gd32f1x0_gpio.o -MD)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB71D0A)
+I (RTE\_Target_1\RTE_Components.h)(0x6269C287)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+F (RTE\Device\GD32F130C8\gd32f1x0_misc.c)(0x5DAED364)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/gd32f1x0_misc.o -MD)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB71D0A)
+I (RTE\_Target_1\RTE_Components.h)(0x6269C287)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+F (RTE\Device\GD32F130C8\gd32f1x0_rcu.c)(0x5DB338C0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/gd32f1x0_rcu.o -MD)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB71D0A)
+I (RTE\_Target_1\RTE_Components.h)(0x6269C287)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+F (RTE\Device\GD32F130C8\gd32f1x0_syscfg.c)(0x5DAED364)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/gd32f1x0_syscfg.o -MD)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB71D0A)
+I (RTE\_Target_1\RTE_Components.h)(0x6269C287)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+F (RTE\Device\GD32F130C8\gd32f1x0_usart.c)(0x5DAED364)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/gd32f1x0_usart.o -MD)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB71D0A)
+I (RTE\_Target_1\RTE_Components.h)(0x6269C287)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+F (RTE\Device\GD32F130C8\gd32f1x0r_eval.c)(0x5DB338E6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/gd32f1x0r_eval.o -MD)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Utilities\gd32f1x0r_eval.h)(0x5DB338E6)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB71D0A)
+I (RTE\_Target_1\RTE_Components.h)(0x6269C287)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)
+F (RTE\Device\GD32F130C8\startup_gd32f1x0.s)(0x5DAED364)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"GD32F1x0 SETA 1" -Wa,armasm,--pd,"GD32F130_150 SETA 1" -Wa,armasm,--pd,"USE_STDPERIPH_DRIVER SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_gd32f1x0.o)
+F (RTE\Device\GD32F130C8\system_gd32f1x0.c)(0x5DB345DC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/jebum/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Firmware/Peripherals/inc-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Users/jebum/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Utilities-IC:/Users/jebum/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/Board-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o ./objects/system_gd32f1x0.o -MD)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D44B52)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D44B52)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB71D0A)
+I (RTE\_Target_1\RTE_Components.h)(0x6269C287)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_exti.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAED364)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB71C90)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB338C0)
+I (C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAED364)

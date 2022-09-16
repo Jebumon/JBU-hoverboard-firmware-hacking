@@ -1,0 +1,126 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Jebumon K Thomas, HP Inc., LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\JEBU\Projects\Howerboard\JBUhoverboard1\JBUhover.uvprojx
+Project File Date:  05/03/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+compiling JBUhover.c...
+linking...
+Program Size: Code=2020 RO-data=392 RW-data=4 ZI-data=2152  
+FromELF: creating hex file...
+".\Objects\JBUhover.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: GigaDevice
+                http://gd32mcu.com/data/documents/pack/GigaDevice.GD32F1x0_DFP.3.2.0.pack
+                GigaDevice.GD32F1x0_DFP.3.2.0
+                GigaDevice GD32F1x0 Series Device Support and Examples
+   * Component: LED Version: 3.2.0
+   * Component: GD32F1x0_EVAL Version: 3.2.0
+   * Component: ADC Version: 3.2.0
+   * Component: EXTI Version: 3.2.0
+   * Component: GPIO Version: 3.2.0
+   * Component: MISC Version: 3.2.0
+   * Component: RCU Version: 3.2.0
+   * Component: SYSCFG Version: 3.2.0
+   * Component: USART Version: 3.2.0
+   * Component: GD32F1x0_libopt Version: 3.2.0
+   * Component: Startup Version: 3.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.13.0.pack
+                Keil.MDK-Middleware.7.13.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: LED Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\jebum\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc
+  C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include
+  C:\Users\jebum\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Utilities
+  C:\Users\jebum\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\Board
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Board Support:LED:1.0.0 (API)
+      Include file:  Board\Board_LED.h
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: GigaDevice.GDF1x0C-START::Board Support:LED:3.2.0
+      Source file:   Boards\GigaDevice\GD32150C-START\Common\LED.c
+
+   * Component: GigaDevice::Device:GD32F1x0_EVAL:3.2.0
+      Include file:  Device\Utilities\gd32f1x0r_eval.h
+      Source file:   Device\Utilities\gd32f1x0r_eval.c
+
+   * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:ADC:3.2.0
+      Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_adc.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_adc.c
+
+   * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:EXTI:3.2.0
+      Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_exti.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_exti.c
+
+   * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:GPIO:3.2.0
+      Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_gpio.c
+
+   * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:MISC:3.2.0
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_misc.c
+      Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_misc.h
+
+   * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:RCU:3.2.0
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_rcu.c
+      Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h
+
+   * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:SYSCFG:3.2.0
+      Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_syscfg.c
+
+   * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:USART:3.2.0
+      Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_usart.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_usart.c
+
+   * Component: GigaDevice::Device:GD32F1x0_libopt:3.2.0
+      Include file:  Device\Include\gd32f1x0_libopt.h
+
+   * Component: GigaDevice::Device:Startup:3.2.0
+      Source file:   Device\Source\system_gd32f1x0.c
+      Include file:  Device\Include\gd32f1x0.h
+      Source file:   Device\Source\startup_gd32f1x0.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

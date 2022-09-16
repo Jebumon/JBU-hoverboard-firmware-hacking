@@ -1,0 +1,20 @@
+--cpu Cortex-M3
+".\objects\systick.o"
+".\objects\jbuhover.o"
+".\objects\gd32f1x0_it.o"
+".\objects\initialization.o"
+".\objects\operations.o"
+".\objects\led.o"
+".\objects\gd32f1x0_adc.o"
+".\objects\gd32f1x0_exti.o"
+".\objects\gd32f1x0_gpio.o"
+".\objects\gd32f1x0_misc.o"
+".\objects\gd32f1x0_rcu.o"
+".\objects\gd32f1x0_syscfg.o"
+".\objects\gd32f1x0_usart.o"
+".\objects\gd32f1x0r_eval.o"
+".\objects\startup_gd32f1x0.o"
+".\objects\system_gd32f1x0.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\JBUhover.map" -o .\Objects\JBUhover.axf
