@@ -4,7 +4,7 @@ The Aim of the project is to hack hoverboard motherboard firmware to customize B
 In Robotics high torque motors are very essential, in mobile robots, best choice is to use BLDC motors those are very high in torque, really powerful and having high efficiency.
 But they are expensive (￡200 to ￡300 for a 500W BLDC motor and its controller). However, we can get powerful BLDC motors very cheaply from scrap hoverboard’s (some peoples give as free or not more than ￡10 for two 250W motors).  
 
-My vision is to develop a common firmware, for most of all common types of hoverboard controllers using GD32F130 microcontroller. 
+My vision is to develop a common firmware, for most of all common types of hoverboard controllers using GD32F130 microcontroller(ARM Cortex-M core). 
 It will help DIY robotics developers and hobbyists who needs cheap BLDC motor (0 to ￡5/motor approx.)
 
 Reverse engineered Circuit diagram :
